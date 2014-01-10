@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/topl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#c0c0c0"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <!-- android:background="@drawable/t" -->
+
+        <TextView
+            android:id="@+id/indicators"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:padding="15sp"
+            android:text="Let people Know what you can do..."
+            android:textColor="#2b3956"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/top2"
+        android:layout_below="@+id/topl" >
+
+        <LinearLayout
+            android:id="@+id/top4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/jobSearch_names"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:ems="10"
+                android:hint="names"
+                android:textSize="13dp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/jobSearch_dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:ems="10"
+                android:hint="Date of Birth(dd-mm-yyyy)"
+                android:inputType="date"
+                android:textSize="13dp" 
+                android:maxLength="10"
+               />
+
+            <EditText
+                android:id="@+id/jobSearch_sex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:ems="10"
+                android:hint="sex"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/jobSearch_inst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:ems="10"
+                android:hint="Institution"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/jobSearch_course"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:ems="10"
+                android:hint="Course offered"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/jobSearch_aor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:ems="10"
+                android:hint="Your Residence"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/et_personaldescr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:ems="10"
+                android:hint="Personal description (max 20 words)"
+                android:textSize="13dp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_exp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="period of experience"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/et_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:hint="Phone number"
+                android:inputType="number"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:ems="10"
+                android:hint="email"
+                android:inputType="textWebEmailAddress"
+                android:textSize="13dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/top2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#566d7e"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:layout_weight="0.31"
+            android:background="@drawable/my_blue_button"
+            android:text="Submit"
+            android:textColor="#fff" />
+        <!--  -->
+
+    </LinearLayout>
+
+</RelativeLayout>

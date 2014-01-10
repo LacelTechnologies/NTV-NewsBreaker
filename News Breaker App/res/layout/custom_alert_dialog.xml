@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+ android:background="#000000"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/txt_alert_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+ android:layout_gravity="center_horizontal"
+ android:padding="4dp"
+ android:textColor="#ffffff"
+ android:layout_margin="10dp"
+        android:text="message" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <Button
+            android:id="@+id/btn_positive"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="50"
+            android:background="@drawable/my_blue_button"
+            android:padding="10dp"
+            android:text="yes"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:background="@drawable/my_gray_button"
+            android:id="@+id/btn_negative"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="50"           
+            android:text="No" />
+    </LinearLayout>
+
+</LinearLayout>

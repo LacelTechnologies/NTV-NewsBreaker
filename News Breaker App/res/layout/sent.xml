@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+<LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/linearLayout1"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="9dp"
+            android:text="You Story was Successfully sent. thanks for using sVoice!!"
+            android:background="#e5e4e2"
+            android:textColor="#000000"
+            android:textAlignment="gravity"
+            android:textSize="14dp"
+            android:gravity="center"
+      
+            />      
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="sVoice"
+            android:textColor="#ffffff"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+     <RelativeLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/reg_bg" >
+        
+        <Button
+            android:id="@+id/sendAnother"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@+id/exitSent"
+            android:background="@drawable/my_blue_button"
+            android:text="Send another Story"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/exitSent"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Exit" 
+          
+            android:layout_margin ="10dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/my_gray_button" />
+    </RelativeLayout>
+
+     
+
+</RelativeLayout>

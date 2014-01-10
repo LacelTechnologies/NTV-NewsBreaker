@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_attach"
+        android:icon="@drawable/ic_menu_attachment"
+        android:orderInCategory="100"
+        android:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/attach_image"
+                android:icon="@drawable/photoicon"
+                android:orderInCategory="1"
+                android:showAsAction="never"
+                android:title="Image"/>
+            <item
+                android:id="@+id/attach_audio"
+                android:orderInCategory="2"
+                android:showAsAction="never"
+                android:icon="@drawable/microphoneicon"
+                android:title="Audio"/>
+            <item
+                android:id="@+id/attach_video"
+                android:icon="@drawable/videoicon"
+                android:orderInCategory="3"
+                android:showAsAction="never"
+                android:title="Video"/>
+            <item
+                android:id="@+id/attach_camera"
+                android:icon="@drawable/camera"
+                android:orderInCategory="4"
+                android:showAsAction="never"
+                android:title="Camera"/>
+        </menu>
+
+        <item/>
+    </item>
+
+</menu>

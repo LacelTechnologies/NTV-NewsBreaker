@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingTop="12dp" 
+    android:clickable="false"
+    >
+
+    <TextView
+        android:id="@+id/txtNotify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:textSize="12dp"
+        android:textColor="@color/successcolor"
+        android:text="@string/attentionChecked" />
+
+    <CheckBox
+        android:id="@+id/check_btn_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:paddingBottom="5dp"
+        android:text="Send your identity to NTV"
+        android:textColor="@color/themecolor" />
+
+    <EditText
+        android:id="@+id/txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="Story Title"
+        android:lines="1"
+        android:padding="10dp"
+        android:textColor="#000000" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txt_where"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="Place of incident"
+        android:lines="1"
+        android:padding="10dp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/txt_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="Story in details"
+        android:lines="5"
+        android:padding="10dp"
+        android:textColor="#000000" />
+
+    
+        <EditText
+            android:id="@+id/txt_attach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_edit_text"
+            android:enabled="false"
+            android:hint="Choose file if any...10mb max"
+            android:lines="1"
+            android:padding="10dp" />
+    
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/my_blue_button"
+        android:padding="10dp"
+        android:text="Submit Story"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

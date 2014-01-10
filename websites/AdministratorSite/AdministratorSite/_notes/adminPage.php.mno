@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_user_news" value="name:id;datatype:int,name:title;datatype:string,name:details;datatype:string,name:location;datatype:string,name:attachment;datatype:string,name:when;datatype:timestamp" />
+	<infoitem key="MMGuideColor" value="#00FF00" />
+	<infoitem key="MMGuideVisible" value="false" />
+	<infoitem key="MMGuideLocked" value="false" />
+	<infoitem key="MMSnapToGuide" value="true" />
+	<infoitem key="MMGuidesSnapToElements" value="true" />
+	<infoitem key="MMDistanceColor" value="#0000FF" />
+	<infoitem key="UD_rs_paging" value="name:id;datatype:int,name:title;datatype:string,name:details;datatype:string,name:location;datatype:string,name:attachment;datatype:string,name:when;datatype:timestamp" />
+	<infoitem key="MMGuideCount" value="0" />
+</info>

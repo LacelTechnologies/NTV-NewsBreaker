@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" 
+    android:gravity="center"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/et_jobType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="10dp"
+        android:hint="Job type"
+        android:textSize="12dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:textSize="12dp"
+        android:hint="Describe what you do(max 20words)"
+        android:id="@+id/et_jobDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:lines="3"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+          android:textSize="12dp"
+        android:id="@+id/et_exp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="period of experience"
+        android:layout_marginBottom="10dp" 
+        />
+
+   
+
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Please Register To Get Started"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#2b3556"
+        android:textStyle="bold" />
+     <TextView 
+           
+            android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_margin="10dp"
+        android:text="Enjoy Daily news updates from your favorite station. send News Stories as well."
+        android:textStyle="normal"
+        android:textColor="#2b3556"
+        android:textSize="12dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/reg_bg"
+        android:gravity="center"
+        android:id="@+id/lreg"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_margin="20dp" 
+       >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register below:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/txtnames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Your names" 
+            android:padding="10dp"
+            android:fadingEdge="vertical"
+            android:background="@drawable/rounded_et"
+            android:layout_margin="8dp">"
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Your email or Phone number" 
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:fadingEdge="vertical"
+            android:background="@drawable/rounded_et"
+            android:layout_margin="8dp"/>
+
+        <EditText
+            android:id="@+id/txtAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="your address"
+            android:padding="10dp"
+            android:fadingEdge="vertical"
+            android:background="@drawable/rounded_et"
+            android:layout_margin="8dp"
+             />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register" 
+            android:textColor="#ffffff"
+            android:padding="16dp"
+            android:textSize="15dp"
+           
+            android:background="@drawable/green_grad_btn"/>
+    </LinearLayout>
+   
+
+</RelativeLayout>

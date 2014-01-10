@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="5"
+        android:showAsAction="never"
+        android:title="settngs"/>
+<item
+        android:id="@+id/compose_story"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_menu_compose">
+    <menu>
+        
+        <item 
+        android:id="@+id/compose_normal"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="Normal"
+            />
+         <item 
+        android:id="@+id/compose_quick"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="Quick"
+            />
+        
+    </menu>
+</item>
+<item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_menu_refresh"/>
+    
+</menu>

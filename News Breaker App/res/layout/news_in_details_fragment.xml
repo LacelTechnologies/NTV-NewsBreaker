@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+<LinearLayout
+    android:padding="10sp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/headline_newsInDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="headline"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/photo_newsInDetails"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        />  
+
+    <TextView
+        android:id="@+id/photo_caption_newsInDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="photocaption"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/time_newsInDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date/Time"
+        android:textColor="#33000000"
+        android:textStyle="italic"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10sp"
+        android:background="@drawable/abs__ab_solid_shadow_holo" />
+    <TextView
+        android:id="@+id/details_newsInDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detailed Story"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
+</ScrollView>

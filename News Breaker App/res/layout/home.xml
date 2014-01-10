@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:padding="0dp" >
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:drawSelectorOnTop="true" >
+        </Spinner>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/spinner1"
+            android:layout_toRightOf="@+id/spinner1"
+            android:src="@drawable/abs__spinner_ab_holo_dark" />
+       
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageViews"
+        android:layout_width="fill_parent"
+        android:layout_height="18sp"
+        android:background="@drawable/abs__ab_solid_shadow_holo" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:padding="0dp" >
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#000011"
+        android:dividerHeight="0.1dp" >
+    </ListView>
+    <TextView 
+        android:layout_width="match_parent" 
+        android:textSize="14sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtnetwork"
+        android:layout_centerInParent="true"
+        android:text="" 
+        />
+</RelativeLayout>
+</LinearLayout>

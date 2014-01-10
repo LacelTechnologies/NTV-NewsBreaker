@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:background="@drawable/reg_bg"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/textHeading"
+            android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_centerHorizontal="true" >
+
+            <ImageView
+                  android:padding="8sp"
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textHeading"
+                android:src="@drawable/rate_star_big_on" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8sp"
+                android:text="Top 5 Journalists"
+                android:textColor="#fcdfff"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="20sp"
+                android:layout_below="@+id/textHeading"
+                android:src="@drawable/rate_star_big_on" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textHeading"
+            android:background="@drawable/abs__ab_solid_shadow_holo" />
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_above="@+id/imageViews"
+            android:layout_below="@+id/imageView1"
+            android:padding="10sp" >
+        </ListView>
+<ImageView
+     android:layout_above="@+id/btn_cancel_rank"
+      
+            android:id="@+id/imageViews"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:rotation="180"
+            android:background="@drawable/abs__ab_solid_shadow_holo" />
+        <Button
+            android:id="@+id/btn_cancel_rank"
+            android:layout_width="fill_parent"
+            android:layout_height="50sp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10sp"
+            android:background="@drawable/reg_btn"
+            android:text="OK"
+            android:textColor="#fff" />
+    </RelativeLayout>
+
+</LinearLayout>

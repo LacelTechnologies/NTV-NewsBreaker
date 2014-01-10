@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:background="@drawable/wbg" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lin"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal" >
+
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/maximumTemp"
+            android:textColor="#fff"
+            android:textSize="50sp" />
+     
+         
+         <ProgressBar
+    android:id="@+id/pbar_weather"
+    android:layout_gravity="center"
+    style="?android:attr/progressBarStyleLarge"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout"
+        android:background="@drawable/transparent"
+        android:layout_below="@+id/lin"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_margin="10dp" >
+<TextView 
+    android:text="Current City Forecast"
+    android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:textColor="#fcdfff"
+    />
+ <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5sp"
+        android:background="@drawable/abs__ab_solid_shadow_holo" />
+
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp" >
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

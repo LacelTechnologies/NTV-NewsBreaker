@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   
+  <item
+        android:id="@+id/share_jobSearch"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="Share With a friend"
+        android:icon="@drawable/ic_menu_share_holo_dark">
+
+</item>  
+</menu>

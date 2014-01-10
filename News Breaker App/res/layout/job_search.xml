@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/topl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:background="#c0c0c0" >
+
+        <!-- android:background="@drawable/t" -->
+
+        <TextView
+            android:id="@+id/indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15sp"
+            android:text="Let Companies Know what you can do..."
+            android:textColor="#2b3956"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/top2"
+        android:layout_below="@+id/topl" >
+
+        <LinearLayout
+            android:id="@+id/top4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/jobSearch_names"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:ems="10"
+                android:hint="names"
+                android:textSize="13dp" >
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/jobSearch_dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:ems="10"
+                android:hint="Date of Birth"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/jobSearch_sex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="sex"
+                 android:layout_margin="5sp"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/jobSearch_aor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                 android:layout_margin="5sp"
+                android:hint="Your Residence"
+                android:textSize="13dp" />
+
+            <EditText
+                 android:layout_margin="5sp"
+                android:id="@+id/et_jobType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="Job type"
+                android:textSize="13dp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_jobDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                 android:layout_margin="5sp"
+                android:ems="10"
+                android:hint="Describe what you do(max 20words)"
+                android:lines="3"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/et_exp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                 android:layout_margin="5sp"
+                android:hint="period of experience"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/et_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:layout_margin="5sp"
+                android:layout_marginBottom="10dp"
+                android:hint="Phone number"
+                android:inputType="number"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                 android:layout_margin="5sp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="email"
+                android:inputType="textWebEmailAddress"
+                android:textSize="13dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/top2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#566d7e"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:layout_weight="0.31"
+            android:background="@drawable/my_blue_button"
+            android:text="Submit"
+            android:textColor="#fff" />
+        <!--  -->
+
+    </LinearLayout>
+
+</RelativeLayout>

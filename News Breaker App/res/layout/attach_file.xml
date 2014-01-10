@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- this is the layout that contains the attach buttons -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_choose_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Image" />
+
+    <Button
+        android:id="@+id/btn_choose_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Video" />
+
+    <Button
+        android:id="@+id/btn_choose_audio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Audio" />
+
+    <Button
+        android:id="@+id/btn_take_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camera" />
+
+</LinearLayout>

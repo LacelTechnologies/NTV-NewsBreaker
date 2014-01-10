@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (C) 2012 The Android Open Source Project
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2b3556" >
+
+    <LinearLayout
+        android:id="@+id/right"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/my_reg_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="50dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register below:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#806517" />
+
+        <EditText
+            android:id="@+id/txtnames"
+               android:lines="1"    
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_et_land"
+            android:ems="10"
+            android:fadingEdge="vertical"
+            android:hint="Your names"
+            android:padding="10dp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+               android:lines="1"    
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_et_land"
+            android:ems="10"
+            android:fadingEdge="vertical"
+            android:hint="Your email or Phone number"
+            android:inputType="textEmailAddress"
+            android:padding="10dp" />
+
+        <EditText
+               android:lines="1"    
+            android:id="@+id/txtAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_et_land"
+            android:ems="10"
+            android:fadingEdge="vertical"
+            android:hint="your address"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/reg_btn"
+            android:padding="16dp"
+            android:text="Register"
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_toLeftOf="@+id/right"
+        android:gravity="center"
+        android:padding="10dp" >
+<ImageView
+    android:id="@+id/logo" android:layout_width="100dp"
+        android:layout_height="100dp" 
+        android:src="@drawable/ntvlogos"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"/> 
+              <TextView
+            android:id="@+id/note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:layout_below="@+id/logo"
+            android:text="Please Register To Get Started.  ENJOY!!!"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/note"
+            
+            android:text="Enjoy Daily news updates from your favorite station. send News Stories as well."
+            android:textSize="12dp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+</RelativeLayout>

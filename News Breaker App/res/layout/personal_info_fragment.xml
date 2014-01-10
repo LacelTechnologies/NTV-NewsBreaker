@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" 
+    android:padding="10dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/jobSearch_names"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        
+        android:hint="names" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/jobSearch_dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Date of Birth" 
+        />
+
+    <EditText
+        android:hint="sex"
+        android:id="@+id/jobSearch_sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+      <EditText
+        android:hint="Your Residence"
+        android:id="@+id/jobSearch_aor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+    
+
+
+
+</LinearLayout>
