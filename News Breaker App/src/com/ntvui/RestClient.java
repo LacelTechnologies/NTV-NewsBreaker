@@ -1,3 +1,9 @@
+/*
+This class enables the http requests and json responses using the asynchttpclient library
+
+*/
+
+
 package com.ntvui;
 
 import com.loopj.android.http.AsyncHttpClient;
