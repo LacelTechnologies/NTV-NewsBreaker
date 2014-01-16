@@ -2,10 +2,8 @@ package com.ntvui;
 
 import java.util.Timer;
 import java.util.TimerTask;
-
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -13,14 +11,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.PowerManager;
 import android.util.Log;
-
-
-
 import com.google.android.gcm.GCMBaseIntentService;
 import com.loopj.android.http.JsonHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
-
-
 
 public class GCMIntentService extends GCMBaseIntentService {
  
