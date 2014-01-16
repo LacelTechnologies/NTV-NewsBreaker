@@ -2,16 +2,13 @@ package com.ntvui;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import com.actionbarsherlock.app.SherlockListActivity;
 import com.actionbarsherlock.internal.widget.IcsAdapterView;
 import com.actionbarsherlock.view.MenuItem;
 import com.loopj.android.http.JsonHttpResponseHandler;
-
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -27,8 +24,7 @@ import android.widget.Toast;
 
 public class GetSelfEmployedActivity extends SherlockListActivity implements OnItemSelectedListener{
 
-	// Progress Dialog
-	// private ProgressDialog pDialog;
+	// Declare variables
 
 	ArrayList<HashMap<String, String>> dataList;
 	ArrayList<String> arr_name = new ArrayList();
@@ -42,12 +38,6 @@ public class GetSelfEmployedActivity extends SherlockListActivity implements OnI
 	ArrayList<String> arr_email = new ArrayList();
 	String message = "";
 	int status = 0;
-
-	// private static String url_FeedStores_data =
-	// "http://192.168.43.77/ProjectAgric/feed.php";
-	// private static String url_FeedStores_data =
-	// "http://192.168.2.169/ProjectAgric/feed.php";
-	// JSON Node names
 
 	private static final String TAG_SUCCESS = "success";
 	private static final String TAG_MSG = "message";
