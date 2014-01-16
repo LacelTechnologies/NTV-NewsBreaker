@@ -3,11 +3,9 @@ package com.ntvui;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -15,7 +13,6 @@ import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,13 +25,10 @@ import android.widget.SimpleAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
-
-
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.app.SherlockListActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
-
 import com.loopj.android.http.JsonHttpResponseHandler;
 
 public class HomeActivity extends SherlockListActivity {
@@ -250,9 +244,3 @@ ListView newsList;
 	    
 	   
 	   }
-
-
-	
-
- 
-
