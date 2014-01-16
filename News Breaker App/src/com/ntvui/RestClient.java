@@ -1,5 +1,6 @@
 /*
 This class enables the http requests and json responses using the asynchttpclient library
+adopted from the non java lib ;asynchttpclient library
 
 */
 
